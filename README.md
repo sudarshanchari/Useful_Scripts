@@ -1,6 +1,7 @@
 # Repository of small scripts that are useful for ngs and other quick computing
 These scripts and/or one-liners are ones that I use routinely for making life easier.
 
+
 ### Downloading and converting SRA files
 #### Batch download SRA files
 First you need the file list. Go to https://www.ncbi.nlm.nih.gov/<<<SRA ID>>> (replace "<<<SRA ID>>>" with the actual ID) Top-right, click on "Send To", "File", "Accession List".
