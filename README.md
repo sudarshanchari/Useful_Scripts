@@ -4,7 +4,8 @@ These scripts and/or one-liners are ones that I use routinely for making life ea
 
 ### Downloading and converting SRA files
 #### Batch download SRA files
-First you need the file list. Go to https://www.ncbi.nlm.nih.gov/<<<SRA ID>>> (replace "<<<SRA ID>>>" with the actual ID) Top-right, click on "Send To", "File", "Accession List".
+- SRA tools can be either obtained from NCBI (https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/) or via conda (conda install sra-tools)
+- In order to download multiple files, you need to have a list. Go to https://www.ncbi.nlm.nih.gov/<<<SRA ID>>> (replace "<<<SRA ID>>>" with the actual ID) Top-right, click on "Send To", "File", "Accession List".
 This creates an accession list text file, then
   
 ```
@@ -17,3 +18,23 @@ fastq-dump -I -F --split-files filename.sra # -F keeps the readname as what the 
 for i in *.sra; do fastq-dump -I -F --split-files ${i}; done &
 
 ```
+
+### Screen Command
+Very useful for big downloads which may not be possible continuously and more..
+
+```
+# for new session and run your large program
+screen 
+wget <a lot of large files>
+
+# detach screen.. but your program will continue to run in the background even if you're disconnected
+Ctrl-a d 
+
+# reattach screen.. for whatever you want to do next
+screen -r 
+
+```
+
+
+
+### 
