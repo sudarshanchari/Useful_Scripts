@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-# Usage perl infile1 infile2 outfile
+# Usage: perl infile1 infile2 outfile
 
 # You want to extract some information from one file based on some unique ID in an other file (for example gene information based on specific SNP Ids)
 # Create a key of all the unique Ids and then use it to look through larger/main data and then print out those lines
