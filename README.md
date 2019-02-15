@@ -34,19 +34,5 @@ Ctrl-a d
 screen -r 
 
 ```
-```
-java -jar HMMRATAC_V1.0_exe.jar
--b file.bam
--i file.bai
--g genomefile.txt
--w file.bigwig
---bedgraph true
---bgscore true
---score all
--o file_hmmratac
-```
-
-According to the guide the ```--score all``` option should produce
-
 
 ### 
