@@ -33,6 +33,14 @@ Ctrl-a d
 # reattach screen.. for whatever you want to do next
 screen -r 
 
+# to list all of the different screen sessions you may have started
+screen -ls (or screen -list)
+
+# to kill a screen session completely
+screen -X -S <session_ID_you_want_to kill> quit
+
+(Alternatively you can attach the screen session and type ctrl a and then type :quit)
+
 ```
 
 ### 
