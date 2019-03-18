@@ -2,7 +2,6 @@
 These scripts and/or one-liners are ones that I use routinely for making life easier.
 
 
-### Downloading and converting SRA files
 #### Batch download SRA files
 - SRA tools can be either obtained from NCBI (https://www.ncbi.nlm.nih.gov/sra/docs/toolkitsoft/) or via conda (conda install sra-tools)
 - In order to download multiple files, you need to have a list. Go to https://www.ncbi.nlm.nih.gov/<SRA ID> (replace "<SRA ID>" with the actual ID) On the top-right, click on "Send To", "File", "Accession List".
